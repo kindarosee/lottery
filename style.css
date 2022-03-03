@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.logo-background{
+    height: 10vh;
+    width: 100%;
+    background: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.logo{
+    font-size: 1.5em;
+    font-family: monospace;
+    padding: 2em;
+}
+
+.welcome-background{
+    height: 50vh;
+    border-bottom: 1px solid black;
+}
+
+.welcome-text-container{
+    position: relative;
+    width: 100%;
+    top: 40%;
+}
+
+.welcome-text{
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.welcome-text strong{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
